@@ -38,3 +38,34 @@
   412  git push origin master
   413  git logs
   414  git log
+
+
+
+  418  cat commands_used.txt
+  419  git status
+  420  git branch
+  421  git checkout -b dev
+  422  git branch
+  423  git status
+  424  git branch
+  425  git add commands_used.txt
+  426  git status
+  427  git commit "added commands_used.txt from dev branch"
+  428  git commit -m "added commands_used.txt from dev branch"
+  429  git status
+  430  git branch
+  431  git log --oneline
+  432  git push origin dev
+  433  ls
+  434  git checkout master
+  435  ls
+  436  git checkout dev
+  437  git branch
+  438  git checkout master
+  439  ls
+  440  git pull origin master
+  441  ls
+  442  git log --oneliner
+  443  git log --oneline
+  
+  447  history | sed -n '414, $p'
