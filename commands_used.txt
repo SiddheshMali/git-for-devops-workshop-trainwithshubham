@@ -1,0 +1,40 @@
+  375  git status
+  376  git init
+  377  git status
+  378  vim test.py
+  379  git status
+  380  git add test.py
+  381  git status
+  382  git rm --cached test.py
+  383  git status
+  384  ls
+  385  cat test.py 
+  386  rm test.py
+  387  ls
+  388  git status
+  389  vim test.py
+  390  git status
+  391  git add test.py
+  392  git status
+  393  git commit -m 'Created first push'
+  394  git status
+  395  git log --oneline
+  396  ls
+  397  rm test.py
+  398  git status
+  399  git restore test.py
+  400  git status
+  401  ls
+  402  gi branch
+  403  git branch
+  404  git remote add origin https://github.com/SiddheshMali/git-for-devops-workshop-trainwithshubham.git
+  405  echo $?
+  406  git branch
+  407  ls -al ~/.ssh
+  408  ssh -T git@github.com
+  409  git remote -v
+  410  git status
+  411  git puch origin master
+  412  git push origin master
+  413  git logs
+  414  git log
